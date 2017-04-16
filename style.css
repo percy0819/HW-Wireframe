@@ -1,0 +1,111 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+	background-color: #ADD8E6;
+}
+h1 {
+	background-color: #F0FFFF;
+	margin: 0px;
+	text-align: center;
+	color: black;
+	padding: 20px;
+
+}
+p {
+	color: white;
+	padding: 40px;
+	font-size: 24px;
+}
+h3 {
+
+}
+header {
+	font-size: 200%;
+  	padding: 20px;
+	text-align: center;
+	background-color: #777;  padding: 40px;
+	margin-bottom: 20px; <! space between header and section>
+	color: #333;
+	background: #ccc;
+	font-weight: bold;
+
+}
+nav{
+	background-color: 	#F0F8FF;
+}
+
+section {
+	/*clear: both;*/
+	/* <section> #eee*/
+	background-color: #ADD8E6;
+	padding: 20px;
+	/*width: 960px;*/
+	float: right;
+
+	/*border: 2px solid white;*/
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px; <! space between header and section>
+}
+#full {
+	clear: both;
+	/*overflow: auto;*/
+	width: 100%
+	background: green;
+}
+
+#division {
+	background-color: #1E90FF;
+	padding: 20px;
+	float: auto;
+	/*text-align: right;*/
+	margin-bottom: 20px;
+	margin-top: 20px;
+	/*clear: both;*/
+
+}
+#left {
+	float: left;
+	padding: 20px;
+	background-color: #000;
+	font-size: 60;
+	color: white;
+	width: 47%;
+	margin-left: 20px; <! space between header and section>
+}
+#right { 
+	float: right;
+	padding: 200px;
+	background-color: #000;
+	font-size: 20;
+	color: white;
+	width: 45%;
+	margin-right: 20px; <! space between header and section>
+}
+}
+aside {
+	background-color: #DC143C;
+	padding: 40px;
+	width: 50.00%;
+	/*border: 0px solid white;*/
+	/*text-align: center;*/
+	text-align: center;
+	/*position: absolute;*/
+	float: right;
+	left: 200px;
+}
+
+footer {
+	margin-top: 10px;
+	overflow: auto;
+	padding: 20px;
+	background-color: #ccc;
+	font-size: 40;
+	color: black;
+	width: 98%;
+	margin-left: 20px; <! space between header and section>
+
+}
